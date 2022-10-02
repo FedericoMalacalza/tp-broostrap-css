@@ -1,0 +1,245 @@
+* {
+  max-width: 100% !important;
+  padding: 0 !important;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+.logo-img {
+  height: 75px;
+}
+
+.conf-logo {
+  color: white;
+}
+
+nav {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.navbar-list {
+  height: auto;
+}
+.list {
+  color: white;
+  display: flex;
+  list-style: none;
+}
+.disabled {
+  opacity: 50%;
+}
+
+.nav-item {
+  justify-content: flex-end;
+  margin: 1rem 1rem;
+  align-items: center;
+}
+.img-hero {
+  display: flex;
+  opacity: 0.7 !important;
+}
+
+.container-hero {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),
+    url(./imagenes/hawaii.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.box1 {
+  min-width: 50%;
+}
+
+.box2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-right: 5rem;
+  text-align: right;
+}
+
+.button-hero {
+  margin: 1rem;
+  padding: 0.5rem 1rem !important;
+  font-weight: 900;
+}
+
+.text-hero {
+  text-align: right;
+}
+
+.subtitle {
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+
+.card {
+  margin: 3rem;
+  min-width: 20% !important;
+}
+
+.card-body {
+  padding: 1rem !important;
+}
+
+.container-info {
+  background-color: rgb(85, 83, 83);
+
+  justify-content: center;
+  border-radius: 1px solid white !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-information {
+  text-align: left !important;
+  color: white !important;
+}
+
+.btn-information {
+  padding: 0.5rem 1rem !important;
+}
+
+.box1-1 {
+  width: 50%;
+  border: 1px solid white !important;
+}
+.box2-2 {
+  width: 45%;
+  margin: 1rem;
+}
+
+.img-info {
+  object-fit: cover;
+}
+
+.container-form {
+  margin: auto;
+  align-items: center;
+  width: 50%;
+}
+.column-form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.label-name {
+  margin-left: 1rem;
+}
+
+.comentary {
+  margin: 0;
+  text-align: center;
+  font: size 10px;
+}
+
+.boton-enviar {
+  padding: 0.5rem !important;
+}
+
+.container-footer {
+  width: 100%;
+  flex-wrap: wrap;
+  height: 5rem;
+  margin: auto;
+  align-items: center !important;
+  background: linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-links {
+  height: 5rem;
+  color: white;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-evenly;
+}
+
+.link-footer {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .container-hero {
+    flex-wrap: wrap;
+  }
+  .box1 {
+    width: auto;
+  }
+  .box1 {
+    width: auto;
+  }
+  .link-footer {
+    font-size: 12px;
+    margin: 1rem;
+  }
+
+  .footer-links {
+    height: auto;
+  }
+
+  .list {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-item {
+    height: auto;
+  }
+
+  .list {
+    font-size: 12px;
+    margin: 0rem;
+    height: auto;
+  }
+
+  .container-footer {
+    height: auto;
+  }
+
+  .footer-links {
+    height: auto;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box2 {
+    margin: 1rem;
+  }
+
+  .box1-1 {
+    width: 100%;
+  }
+  .box2-2 {
+    width: 100%;
+  }
+}
